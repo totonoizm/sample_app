@@ -29,6 +29,7 @@ class TodolistsController < ApplicationController
     list.destroy
     redirect_to todolists_path
   end
+
   private
 
   def list_params

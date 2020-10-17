@@ -18,6 +18,7 @@ class TodolistsController < ApplicationController
     @list = List.find(params[:id])
   end
 
+
   def update
     list = List.find(params[:id])
     list.update(list_params)
@@ -29,6 +30,8 @@ class TodolistsController < ApplicationController
     list.destroy
     redirect_to todolists_path
   end
+
+
 
   private
 

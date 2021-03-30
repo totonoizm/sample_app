@@ -1,11 +1,12 @@
 class ApplicationController < ActionController::Base
 
-    def hello
-        render html:"hola,mundo!"
+    def home
     end
     
-    def goodbye
-        render html:"goodbye"
+    def help
+    end
+    
+    def about
     end
 
 end
